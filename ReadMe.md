@@ -1,4 +1,4 @@
-# Omnifood
+<img class="logo" src="/img/omnifood-logo.png" alt="Omnifood logo" width="600" >
 
 ## About Omnifood
 
