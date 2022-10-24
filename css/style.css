@@ -37,7 +37,7 @@ Defualt: 9px
 }
 
 body {
-  font-family: 'Rubik',sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -46,7 +46,8 @@ body {
 /* ******************** */
 /* GENERAL COMPONENTS */
 /* ******************** */
-.btn:link, .btn:visited {
+.btn:link,
+.btn:visited {
   display: inline-block;
   font-size: 2rem;
   padding: 1.6rem 3.2rem;
@@ -55,22 +56,26 @@ body {
   font-weight: 500;
 }
 
-.btn--full:link, .btn--full:visited {
+.btn--full:link,
+.btn--full:visited {
   background-color: #e67e22;
   color: #fff;
 }
 
-.btn--full:hover, .btn--full:active {
+.btn--full:hover,
+.btn--full:active {
   background-color: #cf711f;
   transition: all 0.3s;
 }
 
-.btn--outline:link, .btn--outline:visited {
+.btn--outline:link,
+.btn--outline:visited {
   background-color: #fff;
   color: #555;
 }
 
-.btn--outline:hover, .btn--outline:active {
+.btn--outline:hover,
+.btn--outline:active {
   background-color: #fdf2e9;
   box-shadow: inset 0 0 0 3px #aaaaaa;
   transition: all 0.3s;
@@ -103,7 +108,8 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.heading-primary, .heading-secondary {
+.heading-primary,
+.heading-secondary {
   letter-spacing: -0.5px;
   font-weight: 700;
   color: #333;
@@ -121,16 +127,18 @@ body {
   margin-bottom: 9.6rem;
 }
 
+.heading-tertiary {
+}
+
 .subheading {
   display: block;
   font-size: 1.6rem;
   font-weight: 500;
-  color:  #cf711f;
+  color: #cf711f;
   text-transform: uppercase;
   margin-bottom: 1.6rem;
   letter-spacing: 0 75px;
 }
-
 
 /* ******************** */
 /* HEADER */
@@ -158,7 +166,8 @@ body {
   align-items: center;
 }
 
-.main-nav-link:link, .main-nav-link:visited {
+.main-nav-link:link,
+.main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
   color: #333;
@@ -167,18 +176,21 @@ body {
   transition: all 0.3s;
 }
 
-.main-nav-link:hover, .main-nav-link:active {
+.main-nav-link:hover,
+.main-nav-link:active {
   color: #cf711f;
 }
 
-.main-nav-link.nav-cta:link, .main-nav-link.nav-cta:visited {
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
   background-color: #e67e22;
 }
 
-.main-nav-link.nav-cta:hover, .main-nav-link.nav-cta:active {
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
   background-color: #cf711f;
 }
 
@@ -255,7 +267,13 @@ body {
   /* background-color: orangered; */
 }
 
+.step-number {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
+}
+
 .step-img {
   width: 50%;
-} 
-
+}
