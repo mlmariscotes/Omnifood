@@ -95,7 +95,7 @@
   display: flex;
 }
 
-.delivered-imgs>img {
+.delivered-imgs > img {
   height: 4.8rem;
   width: 4.8rem;
   border-radius: 50%;
@@ -108,11 +108,11 @@
   font-weight: 600;
 }
 
-.delivered-imgs>img:last-child {
+.delivered-imgs > img:last-child {
   margin: 0;
 }
 
-.delivered-text>span {
+.delivered-text > span {
   color: #cf711f;
   font-weight: 700;
 }
@@ -139,7 +139,7 @@
   justify-content: space-around;
 }
 
-.logos>img {
+.logos > img {
   height: 3.2rem;
   filter: brightness(0);
   opacity: 50%;
@@ -308,5 +308,11 @@
   width: 3rem;
   height: 3rem;
   color: #cf711f;
+}
 
+/* ******************** */
+/* TESTIMONIALS */
+/* ******************** */
+.section-testimonials {
+  padding: 9.6rem 0;
 }
