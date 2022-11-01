@@ -216,7 +216,7 @@
 }
 
 .meal {
-  box-shadow: 0 2.4rem 4.8rem rgb(0, 0, 0, 0.06);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.06);
   border-radius: 11px;
   overflow: hidden;
   transition: all 0.3s;
@@ -224,7 +224,7 @@
 
 .meal:hover {
   transform: translateY(-1.2rem);
-  box-shadow: 0 3.2rem 6.4rem rgb(0, 0, 0, 0.86);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.86);
 }
 
 .meal-content {
@@ -447,4 +447,35 @@
   font-size: 1.6rem;
   line-height: 1.6;
   text-align: center;
+}
+
+/* ******************** */
+/* CTA SECTION */
+/* ******************** */
+.section-cta {
+  padding: 9.6rem 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #e67e22;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+
+  height: 50rem;
+}
+
+.cta-text-box {
+}
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 151, 78, 0.35),
+      rgba(235, 125, 34, 0.35)
+    ),
+    url(../img/eating.jpg);
+  background-size: cover;
+  background-position: center;
 }
